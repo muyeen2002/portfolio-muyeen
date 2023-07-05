@@ -1,0 +1,149 @@
+
+.bannerBgImage{
+    height: 100vh;
+    background : url("./images/bg.jpg");
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+
+
+.bannerTitle{
+    font-size: 4rem;
+    text-shadow: 1px 1px 1px red, 2px 2px 1px red;
+
+}
+
+.bannerDesc{
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px purple, 2px 2px 1px  blue;
+    
+}
+.bannerText{
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+body{
+    background-attachment: dark;
+    background-color:lightslategrey;
+}
+
+
+.home-img{
+    width: 390px;
+    height: 390px;
+    
+    text-align: right;
+    position: absolute;
+    top: 20%;
+    left: 70%
+
+}
+.glowing-circle{
+    width: 100%;
+    height: 100%;
+    
+    background: yellowgreen;
+    border-radius: 38%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.glowing-circle::after{
+    content:'' ;
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    background:whitesmoke;
+    border-radius: 39%;
+
+}
+.glowing-circle .image{
+    position: relative;
+    width: 340px;
+    height: 340px;
+    background: red;
+    border-radius: 39%;
+    z-index: 1;
+    overflow: hidden;
+}
+.image img{
+    position: absolute;
+    top: -15%;
+    left: 60%;
+    transform: translate(-60%);
+    max-width: 350px;
+    object-fit: cover;
+
+}
+.glowing-circle span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#f06,#3cf);
+    border-radius: 39%;
+}
+
+.nav-link:hover{
+    color:blue;
+}
+.navbar-brand{
+    text-shadow: 1px 1px 1px purple, 2px 2px 1px  red;
+
+}
+.nav-link{
+    text-shadow: 1px 1px 1px red, 2px 2px 1px  palevioletred;
+
+}
+.card{
+    cursor: pointer;
+
+}
+
+.card:hover{
+    background-color:aqua ;
+    border: 2px solid  red;
+}
+.BIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 2px solid red;
+}
+.card-img-top{
+    height: 50vh;
+    
+}
+
+
+.table{
+    width: 100%;
+    height:100%;
+    top: 0%;
+    left: 0%;
+}
+
+.nav-item{
+    border-color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bIcon{
+    width: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+   border: 2px solid yellowgreen;
+}
+.card-img-top{
+    height: 50vh;
+}
